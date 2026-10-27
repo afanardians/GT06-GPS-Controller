@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:background="@drawable/widget_card_bg">
+
+    <!-- Ikon Aplikasi di Sisi Kiri -->
+    <ImageView
+        android:id="@+id/ivWidgetIcon"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:src="@drawable/app_logo"
+        android:scaleType="fitCenter"
+        android:contentDescription="GPS Control Logo" />
+
+    <!-- Informasi Teks di Bagian Tengah -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginStart="12dp"
+        android:layout_marginEnd="8dp"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvWidgetTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="GPS Control"
+            android:textColor="#FFFFFF"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:maxLines="1"
+            android:ellipsize="end" />
+
+        <TextView
+            android:id="@+id/tvWidgetStatusBadge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="STATUS: NORMAL"
+            android:textColor="#22C55E"
+            android:textSize="10sp"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp" />
+    </LinearLayout>
+
+    <!-- Tombol Power Bulat di Sisi Kanan (Lebih Kecil & Rapi) -->
+    <ImageView
+        android:id="@+id/ibWidgetPower"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:src="@drawable/btn_power_red"
+        android:scaleType="fitCenter"
+        android:contentDescription="Tombol Kontrol Mesin" />
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+# Build output & caches
+app/build/
+*.apk
+*.ap_
+*.dex
+classes.dex
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Android Studio / IntelliJ / IDE
+.idea/
+*.iml
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Temporary test dumps & screenshots
+*.tmp
+dump_*.xml
+test_*.xml
+ui_*.xml
+screen_*.png

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">GPS Control</string>
+    <string name="title_target_device">Pengaturan Perangkat GPS</string>
+    <string name="hint_phone_number">Nomor SIM GPS (contoh: 08123456789)</string>
+    <string name="btn_save_number">Simpan</string>
+    <string name="switch_direct_sms">Kirim SMS langsung (Background)</string>
+
+    <!-- Widget Home Screen -->
+    <string name="widget_engine_desc">Widget kendali cepat on/off mesin mobil GPS Control</string>
+
+    <!-- Kategori 1: Kontrol Mesin -->
+    <string name="cat_engine">Kontrol Mesin</string>
+    <string name="desc_engine">Operasi pemutusan atau penyalaan pompa bahan bakar dan kelistrikan.</string>
+    <string name="btn_engine_stop">Matikan Mesin</string>
+    <string name="btn_engine_resume">Menyalakan Mesin</string>
+
+    <!-- Kategori 2: Pelacakan & Lokasi -->
+    <string name="cat_location">Pelacakan Kendaraan</string>
+    <string name="desc_location">Minta posisi terkini kendaraan via SMS link peta atau koordinat.</string>
+    <string name="btn_check_google_maps">Cek Lokasi Google Maps</string>
+    <string name="btn_check_coords">Cek Koordinat Lengkap</string>
+
+    <!-- Kategori 3: Informasi & Konfigurasi -->
+    <string name="cat_diagnostic">Konfigurasi Sistem</string>
+    <string name="desc_diagnostic">Periksa pengaturan internal dan konfigurasi operasional perangkat.</string>
+    <string name="btn_check_param">Cek Konfigurasi Parameter</string>
+
+    <!-- Kategori 4: Status Operasional -->
+    <string name="cat_status">Status Operasional</string>
+    <string name="desc_status">Periksa kondisi baterai, sinyal GSM/GPRS, GPS fix dan status kontak ACC.</string>
+    <string name="btn_check_status">Cek Status Operasional</string>
+
+    <!-- Kategori 5: Status & Konfigurasi GPRS -->
+    <string name="cat_gprs">Status GPRS</string>
+    <string name="desc_gprs">Cek pengaturan koneksi data GPRS, APN operator, alamat server, dan port tracker.</string>
+    <string name="btn_check_gprs">Cek Konfigurasi GPRS</string>
+
+    <!-- Kategori 6: Versi Firmware & Hardware -->
+    <string name="cat_firmware">Firmware</string>
+    <string name="desc_firmware">Cek rilis versi sistem firmware, revisi hardware, dan tanggal build perangkat.</string>
+    <string name="btn_check_firmware">Cek Versi Firmware</string>
+
+    <!-- Kategori 7: Pemeliharaan -->
+    <string name="cat_maintenance">Pemeliharaan Sistem</string>
+    <string name="desc_maintenance">Restart atau reboot sistem GPS Tracker dari jarak jauh.</string>
+    <string name="btn_restart_device">Restart Perangkat</string>
+
+    <!-- Dialog Strings -->
+    <string name="dialog_restart_title">Konfirmasi Restart Perangkat</string>
+    <string name="dialog_restart_message">Apakah berkenan untuk restart perangkat?</string>
+    <string name="dialog_stop_title">Peringatan Pemutusan Mesin</string>
+    <string name="dialog_stop_message">PERINGATAN KEAMANAN: Mematikan mesin hanya boleh dilakukan ketika kendaraan dalam keadaan berhenti atau kecepatan di bawah 20 km/jam agar tidak membahayakan pengemudi.\n\nLanjutkan mematikan mesin sekarang?</string>
+    <string name="btn_yes">Ya, Lanjutkan</string>
+    <string name="btn_cancel">Batal</string>
+
+    <!-- Warning No Response SMS -->
+    <string name="title_warning">Peringatan</string>
+    <string name="msg_no_response">Tidak Ada Jawaban Dari Perangkat. Cek kembali Pulsa Anda</string>
+    
+    <!-- Status / Log -->
+    <string name="title_activity_log">Riwayat Perintah Terakhir</string>
+    <string name="log_empty">Belum ada perintah yang dikirim.</string>
+</resources>

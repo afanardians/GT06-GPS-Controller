@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1E293B</color>
+    <color name="primary_dark">#0F172A</color>
+    <color name="accent">#2563EB</color>
+    <color name="background">#F8FAFC</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_muted">#94A3B8</color>
+    <color name="divider">#E2E8F0</color>
+
+    <!-- Launcher Icon -->
+    <color name="ic_launcher_background">#FFFFFF</color>
+
+    <!-- Kategori Warna -->
+    <!-- 1. Engine Stop (Merah) -->
+    <color name="engine_stop">#DC2626</color>
+    <color name="engine_stop_pressed">#B91C1C</color>
+    
+    <!-- 2. Engine Normal (Hijau) -->
+    <color name="engine_resume">#16A34A</color>
+    <color name="engine_resume_pressed">#15803D</color>
+
+    <!-- 3. Lokasi (Biru) -->
+    <color name="location_blue">#0284C7</color>
+    <color name="location_blue_pressed">#0369A1</color>
+
+    <!-- 4. Parameter & Status (Indigo / Violet) -->
+    <color name="param_purple">#6366F1</color>
+    <color name="param_purple_pressed">#4F46E5</color>
+
+    <!-- 5. Restart (Amber / Oranye) -->
+    <color name="restart_orange">#D97706</color>
+    <color name="restart_orange_pressed">#B45309</color>
+</resources>
